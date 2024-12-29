@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* In your index.css or App.css */
+
+/* Prevent horizontal scroll */
+body {
+    overflow-x: hidden;
+  }
+  
+  /* Ensure everything fits within the viewport */
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+
